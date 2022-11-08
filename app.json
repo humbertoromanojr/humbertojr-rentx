@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "humbertojr-rentx",
+    "slug": "humbertojr-rentx",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

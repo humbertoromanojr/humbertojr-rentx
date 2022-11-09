@@ -78,22 +78,32 @@ Made with :heart: and lots of animation by :guitar: Humberto Jr :guitar:
 This page will help you install and build your first React Native app.
 <br />
 If you are new to mobile development, the easiest way to get started is with Expo Go. Expo is a set of tools and services built around React Native and, while it has many features, the most relevant feature for us right now is that it can get you writing a React Native app within minutes. You will only need a recent version of Node.js and a phone or emulator. If you'd like to try out React Native directly in your web browser before installing any tools, you can try out Snack.
-<br />
+<br /><br />
+
 If you are already familiar with mobile development, you may want to use React Native CLI. It requires Xcode or Android Studio to get started. If you already have one of these tools installed, you should be able to get up and running within a few minutes. If they are not installed, you should expect to spend about an hour installing and configuring them.
 <br />
 
-`
+Setting up the development environment
+This page will help you install and build your first React Native app.
+
+If you are new to mobile development, the easiest way to get started is with Expo Go. Expo is a set of tools and services built around React Native and, while it has many features, the most relevant feature for us right now is that it can get you writing a React Native app within minutes. You will only need a recent version of Node.js and a phone or emulator. If you'd like to try out React Native directly in your web browser before installing any tools, you can try out Snack.
+
+If you are already familiar with mobile development, you may want to use React Native CLI. It requires Xcode or Android Studio to get started. If you already have one of these tools installed, you should be able to get up and running within a few minutes. If they are not installed, you should expect to spend about an hour installing and configuring them.
+<br /><br />
+
+> Run the following command to create a new React Native project called "AwesomeProject":
+<br /><br />
+
 npx create-expo-app AwesomeProject
 <br /><br />
 cd AwesomeProject<br />
 npm start # you can also use: npx expo start
-`
 
 ## This will start a development server for you.
 
 Running your React Native application
 Install the Expo Go app on your iOS or Android phone and connect to the same wireless network as your computer. On Android, use the Expo Go app to scan the QR code from your terminal to open your project. On iOS, use the built-in QR code scanner of the default iOS Camera app.
-<br /><br />
+<br />
 
 ## Modifying your app
 Now that you have successfully run the app, let's modify it. Open App.js in your text editor of choice and edit some lines. The application should reload automatically once you save your changes.

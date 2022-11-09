@@ -8,9 +8,6 @@ Project RENTX
 
 
 ## Shields
-
-![Badge](https://img.shields.io/static/v1?label=next&message=FrameWork&color=blue&style=for-the-badge&logo=REACT)
-
 ![Badge](https://img.shields.io/static/v1?label=reactnative&message=FrameWork&color=blue&style=for-the-badge&logo=REACT)
 
 ![Badge](https://img.shields.io/github/issues/humbertoromanojr/humbertojr-rentx?logo=visual-studio-code&style=plastic&logo=appveyor)
@@ -28,11 +25,13 @@ Project RENTX
 -   [React Native](https://reactnative.dev/)
 -   [Expo](https://expo.dev/)
 -   [Styled Components](https://styled-components.com/)
+-   [React Native SVG](https://github.com/software-mansion/react-native-svg)
+-   [React Native SVG Transformer](https://github.com/kristerkari/react-native-svg-transformer)
+-   [React Native Responsive Fontsize](https://github.com/heyman333/react-native-responsive-fontsize)
 
 
 
 ## Demonstration
-
 <div align="center">
   <img src="https://drive.google.com/uc?export=view&id=" alt="" width="100%" border="0" />
 </div>

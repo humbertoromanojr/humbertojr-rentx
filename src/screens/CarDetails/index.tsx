@@ -1,11 +1,14 @@
 import React from 'react'
+import { BackButton } from '../../components/BackButton'
 
-import { Container } from './styles'
+import { Container, Header } from './styles'
 
 export function CarDetails(){
   return (
     <Container>
-
+      <Header>
+        <BackButton onPress={() => {}} />
+      </Header>
     </Container>
   )
 }

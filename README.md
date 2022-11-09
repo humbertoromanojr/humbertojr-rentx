@@ -28,6 +28,7 @@ Project RENTX
 -   [React Native SVG](https://github.com/software-mansion/react-native-svg)
 -   [React Native SVG Transformer](https://github.com/kristerkari/react-native-svg-transformer)
 -   [React Native Responsive Fontsize](https://github.com/heyman333/react-native-responsive-fontsize)
+-   [React Native Iphone X Helper](https://npm.io/package/react-native-iphone-x-helper)
 
 
 

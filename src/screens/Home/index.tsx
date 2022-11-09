@@ -1,11 +1,17 @@
 import React from 'react'
+import { StatusBar } from 'react-native'
 
-import { Container, Title } from './styles'
+import { Container, Header } from './styles'
 
 export function Home(){
   return (
     <Container>
-      <Title>Home</Title>
+      <StatusBar 
+        barStyle="light-content" 
+        backgroundColor="transparent" 
+        translucent 
+      />
+      <Header></Header>
     </Container>
   )
 }

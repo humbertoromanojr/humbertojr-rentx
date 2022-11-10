@@ -4,7 +4,7 @@
 Project RENTX
 </h1>
 
-> Status from Project: 👨‍💻 Under Construction 👩‍💻 
+> Status from Project: <img src="https://drive.google.com/uc?export=view&id=1Tak2fjuusuwdzNI_rwhPqLHGVLVKNTm1" alt="" width="100%" border="0" /> Under Construction <img src="https://drive.google.com/uc?export=view&id=1Tak2fjuusuwdzNI_rwhPqLHGVLVKNTm1" alt="" width="100%" border="0" />
 
 
 ## Shields
@@ -29,7 +29,7 @@ Project RENTX
 -   [React Native SVG Transformer](https://github.com/kristerkari/react-native-svg-transformer)
 -   [React Native Responsive Fontsize](https://github.com/heyman333/react-native-responsive-fontsize)
 -   [React Native Iphone X Helper](https://npm.io/package/react-native-iphone-x-helper)
-
+-   [React Native Calendars](https://github.com/wix/react-native-calendars)
 
 
 ## Demonstration

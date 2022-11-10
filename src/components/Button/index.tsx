@@ -1,11 +1,16 @@
 import React from 'react'
 
-import { Container } from './styles'
+import { Container, Title } from './styles'
 
-export function Button(){
+interface Props {
+  title: string;
+  color?: string;
+}
+
+export function Button({ title, color, ...rest }: Props){
   return (
-    <Container>
-
+    <Container {...rest} color={color}>
+      <Title>{title}</Title>
     </Container>
   )
 }

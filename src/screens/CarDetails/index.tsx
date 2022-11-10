@@ -3,9 +3,11 @@ import React from 'react'
 import { Accessory } from '../../components/Accessory'
 import { BackButton } from '../../components/BackButton'
 import { ImageSlider } from '../../components/ImageSlider'
+import { Button } from '../../components/Button'
 
 import { Container, Header, CarImages, Content, Details,
-Description, Brand, Name, Rent, Period, Price, About, Accessories
+Description, Brand, Name, Rent, Period, Price, About, 
+Accessories, Footer
 } from './styles'
 
 import speedSvg from '../../assets/speed.svg'
@@ -55,7 +57,12 @@ export function CarDetails(){
           lide indultado na praça real Maestranza de Sevilla.
           É um belíssimo carro para quem gosta de acelerar.
         </About>
+
       </Content>
+
+      <Footer>
+        <Button title="Confirmar" />
+      </Footer>
     </Container>
   )
 }

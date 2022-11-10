@@ -1,11 +1,11 @@
 import React from 'react'
-
-import { Container } from './styles'
+import { Feather } from '@expo/vector-icons'
+import { Calendar as CustomCalendar } from 'react-native-calendars'
 
 export function Calendar(){
   return (
-    <Container>
-
-    </Container>
+      <CustomCalendar
+        renderArrow={( direction ) => <Feather />} 
+      />
   )
 }

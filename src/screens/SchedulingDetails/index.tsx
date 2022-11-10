@@ -10,7 +10,9 @@ import { Button } from '../../components/Button'
 
 import { Container, Header, CarImages, Content, Details,
 Description, Brand, Name, Rent, Period, Price, RentalPeriodContainer, 
-Accessories, Footer, CalendarIcon, DateInfo, DateTitle, DateValue
+Accessories, Footer, CalendarIcon, DateInfo, DateTitle, DateValue,
+RentalPrice, RentalPriceLabel, RentalPriceDetails, RentalPriceQuota,
+RentalPriceTotal
 } from './styles'
 
 import speedSvg from '../../assets/speed.svg'
@@ -61,7 +63,7 @@ export function SchedulingDetails(){
           <CalendarIcon>
             <Feather 
               name="calendar"
-              size={RFValue(24)}
+              size={RFValue(30)}
               color={theme.colors.shape}
             />
           </CalendarIcon>
@@ -82,6 +84,14 @@ export function SchedulingDetails(){
             <DateValue>11/11/2022</DateValue>
           </DateInfo>
         </RentalPeriodContainer>
+
+        <RentalPrice>
+          <RentalPriceLabel>Total</RentalPriceLabel>
+          <RentalPriceDetails>
+            <RentalPriceQuota>R$ 580 x3 diárias</RentalPriceQuota>
+            <RentalPriceTotal>R$ 2.900</RentalPriceTotal>
+          </RentalPriceDetails>
+        </RentalPrice>
       </Content>
 
       <Footer>

@@ -4,7 +4,7 @@
 Project RENTX
 </h1>
 
-> Status from Project: <img src="https://drive.google.com/uc?export=view&id=1Tak2fjuusuwdzNI_rwhPqLHGVLVKNTm1" alt="" width="10%" border="0" /> Under Construction <img src="https://drive.google.com/uc?export=view&id=1Tak2fjuusuwdzNI_rwhPqLHGVLVKNTm1" alt="" width="10%" border="0" />
+> Status from Project: <img src="https://drive.google.com/uc?export=view&id=1Tak2fjuusuwdzNI_rwhPqLHGVLVKNTm1" alt="" width="42" border="0" /> Under Construction <img src="https://drive.google.com/uc?export=view&id=1Tak2fjuusuwdzNI_rwhPqLHGVLVKNTm1" alt="" width="42" border="0" />
 
 
 ## Shields
@@ -41,18 +41,19 @@ Project RENTX
 
 ## Install
 Copy project to repository:<br />
-:white_check_mark: git clone `git@github.com:humbertoromanojr/humbertojr-rentx`
+<img src="https://drive.google.com/uc?export=view&id=16QqYlur8qtl5ao_XyEb4IthGyveQmELo" alt="" width="22" border="0" />
+git clone `git@github.com:humbertoromanojr/humbertojr-rentx`
 
 Install Expo <br />
-:white_check_mark: `npm i -g expo-cli` <br />
+<img src="https://drive.google.com/uc?export=view&id=16QqYlur8qtl5ao_XyEb4IthGyveQmELo" alt="" width="32" border="0" /> `npm i -g expo-cli` <br />
 
-:white_check_mark: Go to `humbertojr-rentx` folder <br />
+<img src="https://drive.google.com/uc?export=view&id=16QqYlur8qtl5ao_XyEb4IthGyveQmELo" alt="" width="42" border="0" /> Go to `humbertojr-rentx` folder <br />
 
 Install node_modules <br />
-:white_check_mark: `npm i`
+<img src="https://drive.google.com/uc?export=view&id=16QqYlur8qtl5ao_XyEb4IthGyveQmELo" alt="" width="22" border="0" /> `npm i`
 
 Run application <br />
-:white_check_mark: `npx expo start`
+<img src="https://drive.google.com/uc?export=view&id=16QqYlur8qtl5ao_XyEb4IthGyveQmELo" alt="" width="52" border="0" /> `npx expo start`
 
 
 ## License
@@ -66,7 +67,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://opens
 
 LinkedIn: https://www.linkedin.com/in/junior-dev <br />
 GitLab: https://gitlab.com/hjrdev <br />
-Email: astronomi@gmail.com <br />
+<img src="https://drive.google.com/uc?export=view&id=160InxEPlK0IynTEGEmQJDETo_8grncjI" alt="" width="22" border="0" />: astronomi@gmail.com <br />
 <br />
 
 Made with :heart: and lots of animation by :guitar: Humberto Jr :guitar:

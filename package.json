@@ -30,6 +30,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@types/react": "^18.0.25",
+    "@types/react-native-calendars": "^1.1264.3",
     "@types/styled-components-react-native": "^5.2.0",
     "eslint": "^8.27.0",
     "eslint-config-prettier": "^8.5.0",

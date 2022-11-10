@@ -4,7 +4,7 @@
 Project RENTX
 </h1>
 
-> Status from Project: 👨‍💻 Under Construction 👩‍💻
+> Status from Project: 👨‍💻 Under Construction 👩‍💻 
 
 
 ## Shields
@@ -17,7 +17,7 @@ Project RENTX
 ![Badge](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fhumbertoromanojr%2Fhumbertojr-rentx)
 
 
-### MOBILE
+### MOBILE 
 - <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> — A JavaScript library for building user interfaces
 - <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> — Learn once, write anywhere. Create native apps for Android and iOS using React.
 
@@ -33,6 +33,7 @@ Project RENTX
 
 
 ## Demonstration
+<img src="https://i.ibb.co/sPrPJxR/hello.gif" alt="hello" border="0" width="20"> 
 <div align="center">
   <img src="https://drive.google.com/uc?export=view&id=" alt="" width="100%" border="0" />
 </div>

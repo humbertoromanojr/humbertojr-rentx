@@ -6,10 +6,21 @@ import { Car } from '../../components/Car'
 
 import { Header, TotalCars, HeaderContent } from '../../components/Header/styles'
 import { Container } from './styles'
+import { CarList } from '../../components/Car/styles'
 
 import Logo from '../../assets/logo.svg'
 
 export function Home(){
+  const carData = {
+    brand: 'Audi',
+    name: 'RS 5 Coupé',
+    rent: {
+      period: 'AO DIA',
+      price: 120,
+    },
+    thumbnail: 'https://pngroyale.com/wp-content/uploads/2022/03/Audi-Car-Free-PNG-Image.png',
+  }
+
   return (
     <Container>
       <StatusBar 
@@ -26,7 +37,11 @@ export function Home(){
         </HeaderContent>
       </Header>
 
-      <Car />
+      <CarList
+        data={[1, 2, 3]}
+        keyExtractor={item => String(item)}
+        renderItem={({ item }) => <Car data={carData} /> }
+      />
     </Container>
   )
 }

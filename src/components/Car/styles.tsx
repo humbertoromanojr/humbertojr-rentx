@@ -1,8 +1,9 @@
 import styled from 'styled-components/native'
 import { FlatList } from 'react-native'
 import { RFValue } from 'react-native-responsive-fontsize'
+import { TouchableOpacity } from 'react-native';
 
-export const Container = styled.View`
+export const Container = styled(TouchableOpacity)`
   width: 100%;
   height: 126px;
 

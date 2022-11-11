@@ -30,6 +30,9 @@ Project RENTX
 -   [React Native Responsive Fontsize](https://github.com/heyman333/react-native-responsive-fontsize)
 -   [React Native Iphone X Helper](https://npm.io/package/react-native-iphone-x-helper)
 -   [React Native Calendars](https://github.com/wix/react-native-calendars)
+-   [React Native Navigation](https://reactnavigation.org/docs/getting-started/)
+-   [JSON Server](https://github.com/typicode/json-server)
+-   [Axios](https://axios-http.com/docs/intro)
 
 
 ## Demonstration

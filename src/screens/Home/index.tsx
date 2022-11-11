@@ -7,6 +7,7 @@ import { api } from '../../services/api'
 import { CarDTO } from '../../dtos/CarDTO'
 
 import { Car } from '../../components/Car'
+import { Loading } from '../../components/Loading'
 
 import { Header, TotalCars, HeaderContent } from '../../components/Header/styles'
 import { Container } from './styles'
@@ -65,13 +66,16 @@ export function Home() {
         </HeaderContent>
       </Header>
 
-      <CarList
-        data={cars}
-        keyExtractor={item => item.id}
-        renderItem={({ item }) => 
-          <Car data={item} onPress={handleCarDetails} /> 
-        }
-      />
+      {
+        loading ? <Loading /> :
+        <CarList
+          data={cars}
+          keyExtractor={item => item.id}
+          renderItem={({ item }) => 
+            <Car data={item} onPress={handleCarDetails} /> 
+          }
+        />
+      }
     </Container>
   )
 }

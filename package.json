@@ -7,7 +7,7 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "server-json":"json-server ./src/services/server.json",
+    "server-json":"json-server ./src/services/server.json --host [your machine ip] --port 3333",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
   "dependencies": {

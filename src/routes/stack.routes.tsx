@@ -1,4 +1,4 @@
-import { createNativeStackNavigator as Stack } from '@react-navigation/native-stack'
+import { createStackNavigator } from '@react-navigation/stack'
 
 import { Home } from '../screens/Home'
 import { Scheduling } from '../screens/Scheduling'
@@ -6,11 +6,11 @@ import { SchedulingDetails } from '../screens/SchedulingDetails'
 import { SchedulingComplete } from '../screens/SchedulingComplete'
 import { CarDetails } from '../screens/CarDetails'
 
-const { Navigator, Screen } = Stack()
+const { Navigator, Screen } = createStackNavigator()
 
 export function StackRoutes() {
   return (
-    <Navigator>
+    <Navigator headerMode="none">
       <Screen
         name="Home"
         component={Home}
@@ -51,4 +51,5 @@ export function StackRoutes() {
         }}
       />
     </Navigator>
+  )
 }

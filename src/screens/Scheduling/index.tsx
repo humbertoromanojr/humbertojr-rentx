@@ -21,6 +21,10 @@ export function Scheduling(){
     navigation.navigate('SchedulingDetails');
   }
 
+  function handleBackButton() {
+    navigation.goBack();
+  }
+
   return (
     <Container>
       <StatusBar 
@@ -29,7 +33,7 @@ export function Scheduling(){
         translucent 
       />
       <Header>
-        <BackButton onPress={() => {}} color={theme.colors.shape} />
+        <BackButton onPress={handleBackButton} color={theme.colors.shape} />
         <Title>
           Escolha uma {'\n'}
           data de início e {'\n'}

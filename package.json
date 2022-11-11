@@ -7,7 +7,7 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "server-json":"json-server ./src/services/server.json --host [your machine ip] --port 3333 --delay 700",
+    "server-json": "json-server ./src/services/server.json --host [your machine ip] --port 3333 --delay 700",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
   "dependencies": {
@@ -15,6 +15,7 @@
     "@expo-google-fonts/inter": "^0.2.2",
     "@react-navigation/native": "^6.0.13",
     "@react-navigation/stack": "^5.14.9",
+    "axios": "^1.1.3",
     "expo": "~44.0.2",
     "expo-app-loading": "~1.3.0",
     "expo-font": "~10.0.4",

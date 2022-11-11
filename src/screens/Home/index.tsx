@@ -36,16 +36,6 @@ export function Home() {
     fetchCars()
   }, [])
 
-  const carData = {
-    brand: 'Audi',
-    name: 'RS 5 Coupé',
-    rent: {
-      period: 'AO DIA',
-      price: 120,
-    },
-    thumbnail: 'https://pngroyale.com/wp-content/uploads/2022/03/Audi-Car-Free-PNG-Image.png',
-  }
-
   function handleCarDetails() {
     navigation.navigate('CarDetails');
   }

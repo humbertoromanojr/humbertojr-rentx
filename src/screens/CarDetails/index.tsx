@@ -2,6 +2,7 @@ import React from 'react'
 import { useNavigation, useRoute } from '@react-navigation/native'
 
 import { CarDTO } from '../../dtos/CarDTO'
+import { getAccessoryIcon } from '../../utils/getAccessoryIcon'
 
 import { Accessory } from '../../components/Accessory'
 import { BackButton } from '../../components/BackButton'
@@ -16,13 +17,6 @@ Accessories, Footer
 interface Params {
   car: CarDTO
 }
-
-import speedSvg from '../../assets/speed.svg'
-import accelerationSvg from '../../assets/acceleration.svg'
-import forceSvg from '../../assets/force.svg'
-import gasolineSvg from '../../assets/gasoline.svg'
-import exchangeSvg from '../../assets/exchange.svg'
-import peopleSvg from '../../assets/people.svg'
 
 export function CarDetails(){
   const navigation = useNavigation()
@@ -68,7 +62,7 @@ export function CarDetails(){
               <Accessory 
                 key={accessory.type}
                 name={accessory.name}
-                icon={speedSvg}
+                icon={getAccessoryIcon(accessory.type)}
               />
             ))
           }

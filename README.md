@@ -17,7 +17,7 @@ Project RENTX
 ![Badge](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fhumbertoromanojr%2Fhumbertojr-rentx)
 
 
-### MOBILE 
+### MOBILE LIBRARIES
 - <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> — A JavaScript library for building user interfaces
 - <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> — Learn once, write anywhere. Create native apps for Android and iOS using React.
 
@@ -33,6 +33,7 @@ Project RENTX
 -   [React Native Navigation](https://reactnavigation.org/docs/getting-started/)
 -   [JSON Server](https://github.com/typicode/json-server)
 -   [Axios](https://axios-http.com/docs/intro)
+-   [Date fns](https://date-fns.org/)
 
 
 ## Demonstration

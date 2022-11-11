@@ -1,11 +1,16 @@
 import React from 'react'
+import { TouchableOpacityProps } from 'react-native';
 
-import { Container } from './styles'
+import { Container, Title } from './styles'
 
-export function ConfirmButton() {
+interface Props extends TouchableOpacityProps {
+  title: string;
+}
+
+export function ConfirmButton({ title, ...rest }: Props) {
   return (
-    <Container>
-
+    <Container {...rest}>
+      <Title>{title}</Title>
     </Container>
   )
 }

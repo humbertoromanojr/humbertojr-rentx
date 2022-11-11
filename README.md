@@ -66,6 +66,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://opens
 
 ## Author
 <img src="https://avatars1.githubusercontent.com/u/6500430?s=460&u=42d7e22fa1c77b061505fe1cfc3fcaa3e2a4d1e5&v=4" width="80" alt="linkedin.com/in/junior-dev" />
+<img src="https://drive.google.com/uc?export=view&id=1-y6rFrn4uqPfLx3nuUTXh14OeRGSZzHu" alt="" width="22" border="0" />
 :guitar: Humberto Jr :guitar:
 <br />
 
@@ -77,8 +78,9 @@ GitLab: https://gitlab.com/hjrdev <br />
 Made with :heart: and lots of animation by :guitar: Humberto Jr :guitar:
 
 ##
-:hand:  read more below  :hand:
+<img src="https://drive.google.com/uc?export=view&id=1lAPQY5CLSU4ofNI7-kTS8SMtKo6NZt-B" alt="" width="22" border="0" />  Read more below  <img src="https://drive.google.com/uc?export=view&id=1lAPQY5CLSU4ofNI7-kTS8SMtKo6NZt-B" alt="" width="22" border="0" />
 ##
+
 
 ## Setting up the development environment
 

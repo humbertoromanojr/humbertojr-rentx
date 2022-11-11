@@ -21,6 +21,10 @@ import peopleSvg from '../../assets/people.svg'
 export function CarDetails(){
   const navigation = useNavigation()
 
+  function handleConfirmRental() {
+    navigation.navigate('Scheduling');
+  }
+
   return (
     <Container>
       <Header>
@@ -64,7 +68,7 @@ export function CarDetails(){
       </Content>
 
       <Footer>
-        <Button title="Confirmar" />
+        <Button title="Confirmar" onPress={handleConfirmRental} />
       </Footer>
     </Container>
   )

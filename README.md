@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1iYjeXFLBZP92zh5WwG11znZnIpJZVvXE" alt="" width="100%" border="0" />
+  <img src="https://drive.google.com/uc?export=view&id=1i8Ki6DtNScjprXyxU0yNwsDKtlHaUt86" alt="" width="100%" border="0" />
 <br>
 Project RENTX
 </h1>
@@ -44,7 +44,7 @@ Project RENTX
 
 
 ## Project Dynamics
-<p style="text-align: justify">This is a car rental and scheduling project, on the home page you click on the car you want to rent, and then you are sent to the car details screen, and then click on <strong>Choose rental period</strong> you go to the <strong>Calendar</strong>, to choose a period, a start and end date of the rental and click on <strong>Confirm</strong>, after that the screen will come showing the days and value of the rental, but only click on <strong>Rent now</strong> if you really want this car for rent, as soon as you click, the rental process ends.</p>
+<p style="text-align: justify;">This is a car rental and scheduling project, on the home page you click on the car you want to rent, and then you are sent to the car details screen, and then click on <strong>Choose rental period</strong> you go to the <strong>Calendar</strong>, to choose a period, a start and end date of the rental and click on <strong>Confirm</strong>, after that the screen will come showing the days and value of the rental, but only click on <strong>Rent now</strong> if you really want this car for rent, as soon as you click, the rental process ends.</p>
 
 
 ## Install

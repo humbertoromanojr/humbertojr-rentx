@@ -43,6 +43,10 @@ Project RENTX
 </div>
 
 
+## Project Dynamics
+This is a car rental and scheduling project, on the home page you click on the car you want to rent, and then you are sent to the car details screen, and then click on <strong>Choose rental period</strong> you go to the <strong>Calendar</strong>, to choose a period, a start and end date of the rental and click on <strong>Confirm</strong>, after that the screen will come showing the days and value of the rental, but only click on <strong>Rent now</strong> if you really want this car for rent, as soon as you click, the rental process ends.
+
+
 ## Install
 Copy project to repository:<br />
 <img src="https://drive.google.com/uc?export=view&id=16QqYlur8qtl5ao_XyEb4IthGyveQmELo" alt="" width="22" border="0" />
@@ -66,7 +70,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://opens
 
 ## Author
 <img src="https://avatars1.githubusercontent.com/u/6500430?s=460&u=42d7e22fa1c77b061505fe1cfc3fcaa3e2a4d1e5&v=4" width="80" alt="linkedin.com/in/junior-dev" />
-<img src="https://drive.google.com/uc?export=view&id=1-y6rFrn4uqPfLx3nuUTXh14OeRGSZzHu" alt="" width="22" border="0" />
+<img src="https://drive.google.com/uc?export=view&id=1-y6rFrn4uqPfLx3nuUTXh14OeRGSZzHu" alt="" width="42" border="0" />
 :guitar: Humberto Jr :guitar:
 <br />
 

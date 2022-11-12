@@ -43,6 +43,10 @@ export function Home() {
     navigation.navigate('CarDetails', { car });
   }
 
+  function handleMyCars() {
+    navigation.navigate('MyCars');
+  }
+
   return (
     <Container>
       <StatusBar 
@@ -54,7 +58,7 @@ export function Home() {
         <HeaderContent>
           <Logo width={RFValue(108)} height={RFValue(16)} />
           <TotalCars>
-            Total de 12 carros
+            Total de {cars.length} carros 
           </TotalCars>
         </HeaderContent>
       </Header>
@@ -70,7 +74,7 @@ export function Home() {
         />
       }
 
-      <MyCarsButton>
+      <MyCarsButton onPress={handleMyCars}>
         <Ionicons 
           name="ios-car-sport" 
           size={38} 

@@ -115,7 +115,12 @@ export function Scheduling(){
       </Content> 
 
       <Footer>
-        <Button title="Confirmar" onPress={handleConfirmRental} />
+        <Button 
+          title="Confirmar" 
+          onPress={handleConfirmRental} 
+          /* TODO: another way to lock the button, it only releases the click if the user selects a range */
+          //enabled={!!rentalPeriod.startFormatted}
+        />
       </Footer>    
     </Container>
   )

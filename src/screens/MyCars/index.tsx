@@ -19,6 +19,8 @@ interface CarProps {
   id: string;
   user_id: string;
   car: CarDTO;
+  startDate: string;
+  ensDate: string;
 }
 
 export function MyCars() {
@@ -71,7 +73,7 @@ export function MyCars() {
       <Content>
         <Appointments>
           <AppointmentsTitle>Agendamentos feitos</AppointmentsTitle>
-          <AppointmentsQuantity>2</AppointmentsQuantity>
+          <AppointmentsQuantity>{cars.length}</AppointmentsQuantity>
         </Appointments>
 
         <FlatList 
@@ -84,14 +86,14 @@ export function MyCars() {
               <CarFooter>
                 <CarFooterTitle>Período</CarFooterTitle>
                 <CarFooterPeriod>
-                  <CarFooterDate>12/11/2022</CarFooterDate>
+                  <CarFooterDate>{item.startDate}</CarFooterDate>
                   <AntDesign
                     name="arrowright"
                     size={24}
                     color={theme.colors.title}
                     style={{ marginHorizontal: 10 }}
                   />
-                  <CarFooterDate>14/11/2022</CarFooterDate>
+                  <CarFooterDate>{item.ensDate}</CarFooterDate>
                 </CarFooterPeriod>
               </CarFooter>
             </CarWrapper>

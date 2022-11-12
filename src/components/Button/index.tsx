@@ -7,19 +7,25 @@ interface Props {
   title: string;
   color?: string;
   onPress: () => void;
-  //enabled?: boolean;
+  loading?: boolean;
+  disabled?: boolean;
 } 
 
-export function Button({ title, color, onPress, /*enabled = true*/ }: Props){
+export function Button({ 
+  title, 
+  color, 
+  onPress, 
+  loading = false,
+  disabled = false
+}: Props) {
   const theme = useTheme()
 
   return (
     <Container 
       onPress={onPress} 
       color={color ? color : theme.colors.main}
-      /* TODO: another way to lock the button, it only releases the click if the user selects a range */
-      //enabled={enabled}
-      //style={{ opacity: enabled ? 1 : .5}}
+      disabled={disabled}
+      style={{ opacity: disabled ? .5 : 1}}
     >
       <Title>{title}</Title>
     </Container>

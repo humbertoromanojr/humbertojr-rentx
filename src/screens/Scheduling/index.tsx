@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { StatusBar, Alert } from 'react-native'
+import { StatusBar } from 'react-native'
 import { useNavigation, useRoute } from '@react-navigation/native'
 import { useTheme } from 'styled-components'
 import { format } from 'date-fns'
@@ -37,14 +37,10 @@ export function Scheduling(){
   const { car } = route.params as Params
 
   function handleConfirmRental() {
-    if (!rentalPeriod.startFormatted || !rentalPeriod.endFormatted) {
-      Alert.alert('Selecione o intervalo para alugar!')
-    } else {
-      navigation.navigate('SchedulingDetails', {
-        car, 
-        dates: Object.keys(String(markedDates))
-      });
-    }
+    navigation.navigate('SchedulingDetails', {
+      car, 
+      dates: Object.keys(String(markedDates))
+    });
   }
 
   function handleBackButton() {
@@ -118,8 +114,7 @@ export function Scheduling(){
         <Button 
           title="Confirmar" 
           onPress={handleConfirmRental} 
-          /* TODO: another way to lock the button, it only releases the click if the user selects a range */
-          //enabled={!!rentalPeriod.startFormatted}
+          disabled={!!rentalPeriod.startFormatted ? false : true}
         />
       </Footer>    
     </Container>

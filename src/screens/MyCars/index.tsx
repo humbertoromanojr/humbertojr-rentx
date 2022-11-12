@@ -9,6 +9,7 @@ import { api } from '../../services/api'
 
 import { BackButton } from '../../components/BackButton'
 import { Car } from '../../components/Car'
+import { Loading } from '../../components/Loading'
 
 import { Container, Header, Title, SubTitle, Content, Appointments, 
   AppointmentsTitle, AppointmentsQuantity, CarWrapper, CarFooter,
@@ -70,7 +71,9 @@ export function MyCars() {
 
       </Header>
 
-      <Content>
+      {
+        loading ? <Loading /> :
+        <Content>
         <Appointments>
           <AppointmentsTitle>Agendamentos feitos</AppointmentsTitle>
           <AppointmentsQuantity>{cars.length}</AppointmentsQuantity>
@@ -99,7 +102,8 @@ export function MyCars() {
             </CarWrapper>
           )}
         />
-      </Content>
+        </Content>
+      }
     </Container>
   )
 }

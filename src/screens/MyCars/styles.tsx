@@ -6,8 +6,6 @@ export const Container = styled.View`
   flex: 1;
   align-items: center;
 
-  margin-bottom: 15px;
-
   background-color: ${({ theme }) => theme.colors.background_primary};
 `;
 
@@ -73,8 +71,8 @@ export const CarWrapper = styled.View`
 export const CarFooter = styled.View`
   width: 100%;
   padding: 12px;
-
-  margin-top: -10px;
+  margin-bottom: 5px;
+  margin-top: -15px;
 
   flex-direction: row;
   align-items: center;

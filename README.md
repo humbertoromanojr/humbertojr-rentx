@@ -25,6 +25,7 @@ Project RENTX
 -   [ReactJS](https://reactjs.org/)
 -   [React Native](https://reactnative.dev/)
 -   [Expo](https://expo.dev/)
+-   [Typescript](https://www.typescriptlang.org/)
 -   [Styled Components](https://styled-components.com/)
 -   [React Native SVG](https://github.com/software-mansion/react-native-svg)
 -   [React Native SVG Transformer](https://github.com/kristerkari/react-native-svg-transformer)

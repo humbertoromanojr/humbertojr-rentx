@@ -15,49 +15,31 @@ export function StackRoutes() {
       <Screen
         name="Home"
         component={Home}
-        options={{
-          title: 'Home',
-        }}
       />
 
       <Screen
         name="Scheduling"
         component={Scheduling}
-        options={{
-          title: 'Scheduling',
-        }}
       />
 
-    <Screen
+      <Screen
         name="SchedulingDetails"
         component={SchedulingDetails}
-        options={{
-          title: 'SchedulingDetails',
-        }}
       />
 
       <Screen
         name="SchedulingComplete"
         component={SchedulingComplete}
-        options={{
-          title: 'SchedulingComplete',
-        }}
       />
 
       <Screen
         name="CarDetails"
         component={CarDetails}
-        options={{
-          title: 'CarDetails',
-        }}
       />
 
       <Screen
         name="MyCars"
         component={MyCars}
-        options={{
-          title: 'MyCars',
-        }}
       />
     </Navigator>
   )

@@ -40,7 +40,7 @@ Project RENTX
 ## Demonstration
 <img src="https://i.ibb.co/sPrPJxR/hello.gif" alt="hello" border="0" width="20"> 
 <div align="center">
-  <img src="https://drive.google.com/uc?export=view&id=" alt="" width="100%" border="0" />
+  <img src="https://drive.google.com/uc?export=view&id=1RUCuTFhsf8NayjfQ4Cj4qtNfDg7VztW6" alt="" width="100%" border="0" />
 </div>
 
 
